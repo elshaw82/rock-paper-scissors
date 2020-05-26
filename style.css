@@ -90,7 +90,7 @@ section {
 
 .player-hand {
     transform:rotateY(180deg);
-    
+
 }
 
 div.fadeOut {
@@ -163,4 +163,30 @@ div.fadeIn {
     100% {
         transform:  translateY(0px);
     }
+}
+
+@media only screen and (max-width: 600px) {
+    h1 {
+      text-align: center; 
+    }
+.options {
+    width:100vw;
+    display:flex;
+    flex-direction: column;
+    padding-left: 35%;
+}
+
+button {
+    margin: 5px 0 5px 0;
+}
+
+.score {
+    padding:20px;
+}
+
+.winner {
+    padding:20px;
+}
+
+
 }
